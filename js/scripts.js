@@ -14,12 +14,13 @@ $(document).ready(function() {
     if (appAnswer === "appJava" && easyHardAnswer ==="easyPython" && teachAnswer ==="teachPython" && lengthAnswer === "shortPython" && slowOrFastAnswer === "fastPython"){
       var trackResults = "track 1"
     }
-    else if (appAnswer === "appRuby" && easyHardAnswer ==="hardJava" && teachAnswer === "noTeachJava" && lengthAnswer === "longJava" && slowOrFastAnswer === "slowJava")
-
-    {
-      var trackresults = "track 2"
+    else if (appAnswer === "appRuby" && easyHardAnswer ==="hardJava" && teachAnswer === "noTeachJava" && lengthAnswer === "longJava" && slowOrFastAnswer === "slowJava"){
+      var trackResults = "track 2"
     }
     if (appAnswer && easyHardAnswer && teachAnswer && lengthAnswer && slowOrFastAnswer) {
   $("#track").empty().append(trackResults);
   $("#result").show();
   }
+  event.preventDefault();
+});
+});
