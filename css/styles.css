@@ -1,0 +1,12 @@
+h1{
+  font-family: sans-serif;
+}
+p{
+  font-family: sans-serif;
+}
+#pageTwo{
+  display: none;
+}
+#result{
+  display: none;
+}
